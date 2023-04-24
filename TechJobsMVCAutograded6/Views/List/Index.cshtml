@@ -2,7 +2,6 @@
     <h1>@ViewBag.title</h1>
     <h2 class="centered">View Jobs By Category</h2>
 </div>
-
 <table class="centeredTable">
     <tr>
         @foreach (var column in ViewBag.columns)
@@ -12,7 +11,6 @@
     </tr>
     <tr>
         <!-- TODO #2: Complete the View Jobs By Category Table. -->
-
         <td>
             <a asp-controller="List" asp-action="Jobs" asp-route-column="All" asp-route-value="View All">View All</a>
         </td> <!-- Feel free to remove or modify this element if necessary. -->
